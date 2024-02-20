@@ -17,7 +17,7 @@ You should never hardcode your API keys, passwords, or other sensitive credentia
 ## Strong Authentication and Authorization Rules
 
 - **Authentication** - You validate a user's login and password against an application's database. [Reading: More on User Authentication with Devise](https://learn.firstdraft.com/lessons/195-authentication-with-devise).
-- **Authorization** - You validate the role of a signed-in user and, based on that, render different information for different users. For example, a user with an admin role can access a list of users in an application, while in most cases, the typical user can't. You can set this up using [Reading: Authorization with Pundit 🔒](https://dpi.instructure.com/courses/294/assignments/2165?wrap=1)
+- **Authorization** - You validate the role of a signed-in user and, based on that, render different information for different users. For example, a user with an admin role can access a list of users in an application, while in most cases, the typical user can't. You can set this up using [Reading: Authorization with Pundit 🔒](https://learn.firstdraft.com/lessons/202-pundit-authorization)
 
 ## Avoid SQL Injection
 
